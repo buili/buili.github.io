@@ -1,0 +1,617 @@
+/* @media only screen  and (min-width:1220px){
+.anh{
+  height: 40%;
+}
+.main-nav{
+  margin-top: -80px;
+}
+
+.heading-main-box{
+  font-size: 90%;
+  margin-left: 718px;
+}
+.main-nav li {
+  display: inline-block;
+  
+}
+} */
+@media only screen and (max-width:1500px) {
+  .sticky{
+    height: 60px;
+  }
+}
+@media only screen and (max-width:1360px) {
+  .sticky{
+    height: 60px;
+  }
+  html {
+    font-size: 16px;
+  }
+
+  .logo {
+    margin-left: 80px;
+  }
+
+  .heading-main-box {
+    font-size: 90%;
+    /* margin-left: 700px; */
+    transform: translate(-140%, -80%)
+  }
+
+  .gioi-thieu {
+    margin-top: -120px;
+    margin-left: 86px;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .anh {
+    margin-top: 50px;
+    height: 32%;
+  }
+
+  .logoc11 {
+    margin-left: 250px;
+  }
+
+  .live {
+    margin-top: -10px;
+  }
+
+  .giai {
+    margin-top: -91px;
+    margin-left: 103px;
+  }
+
+  .xem {
+    margin-top: -65px;
+    margin-left: 120px;
+  }
+
+  .fig2 {
+    margin-left: 249px;
+  }
+
+  .logocmun {
+    margin-left: 250px;
+  }
+
+  .figmun {
+    margin-left: 238px;
+  }
+
+  .xem1 {
+    margin-left: 120px;
+  }
+
+  .giai1 {
+    margin-top: -85px;
+    margin-left: 98px;
+  }
+
+  .live1 {
+    margin-top: -10px;
+  }
+
+  .logocre {
+    margin-left: 255px;
+  }
+
+  .figre {
+    margin-left: 240px;
+  }
+
+  .l1 {
+    margin-left: 15px;
+  }
+
+  .l2 {
+    margin-left: 170px;
+  }
+
+  .gio {
+    margin-left: 92px;
+  }
+
+  .giai2 {
+    margin-top: -87px;
+    margin-left: 50px;
+  }
+
+  .figl2 {
+    margin-left: 173px;
+  }
+
+  .lpsg {
+    margin-top: -60px;
+    margin-left: 175px;
+  }
+
+  .figpsg {
+    margin-left: 185px;
+  }
+
+  .giopsg {
+    margin-top: -65px;
+  }
+
+  .giai3 {
+    margin-left: 52px;
+  }
+
+  .lphap {
+    margin-left: 176px;
+  }
+
+  .figfra {
+    margin-left: 185px;
+  }
+
+  .giowo {
+    margin-top: -50px;
+  }
+
+  .giaiwo {
+    margin-top: -91px;
+    margin-left: 60px;
+  }
+
+  .ltl {
+    margin-left: 180px;
+  }
+
+  .figtl {
+    text-align: center;
+    margin-left: 180px;
+  }
+
+  .gioaff {
+    margin-top: -50px;
+  }
+
+  .giaiaff {
+    margin-top: -93px;
+    margin-left: 58px;
+  }
+
+  .ltot {
+    width: 39px;
+    margin-top: -84px;
+    margin-left: 188px;
+  }
+
+  .figtot {
+    margin-top: -15px;
+    margin-left: 176px;
+  }
+
+  .giai4 {
+    margin-top: -90px;
+    margin-left: 58px;
+
+  }
+
+  .lbarca {
+    margin-left: 180px;
+
+  }
+
+  .lhagl {
+    margin-left: 180px;
+  }
+
+  .figbarca {
+    margin-left: 175px
+  }
+
+  .gio {
+    margin-top: -75px;
+  }
+
+  .giai5 {
+    margin-top: -86px;
+    margin-left: 60px;
+  }
+
+  .fighagl {
+    margin-left: 193px;
+  }
+
+  .lbr {
+    margin-top: -40px;
+    margin-left: 178px;
+  }
+
+  .giaiwo2 {
+    margin-top: -83px;
+    margin-left: 55px;
+  }
+
+  .figbr {
+    margin-left: 190px;
+  }
+
+  .thong-tin {
+    margin-left: 400px;
+  }
+
+  .social-icons {
+    margin-left: 390px;
+  }
+  
+}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px) {
+  .picture4 {
+
+    /* margin-left: 100px; */
+    width: 100%;
+    
+  }
+  .truc-tiep h2{
+    margin-top: -30px;
+  }
+  .bang {
+    width: 100%;
+  }
+  .hang3{
+    display: none;
+  }
+  .hang6{
+    display: none;
+  }
+  .anh{
+    height: 24%;
+  }
+  .main-nav li{
+    margin-right: 6px;
+  }
+  .heading-main-box{
+    font-size: 50%;
+    /* margin-left: 700px; */
+    /* transform: translate(-220%, -90%) */
+    margin-left: 575px;
+    margin-top: 200px;
+  }
+  .gioi-thieu{
+    margin-top: 10px;
+  }
+  .anh11{
+    margin-left: 160px;
+  }
+  .anh22{
+    margin-left: 230px;
+  }
+
+  .xem{
+    margin-left: 320px;
+  }
+
+  .giai{
+    margin-left: 290px;
+  }
+
+  .xem1{
+    margin-left: 320px;
+  }
+  .giai1{
+    margin-left: 290px;
+    margin-top: -70px;
+  }
+  .figmun{
+    text-align: inherit;
+  }
+  .figre{
+    text-align: inherit;
+  }
+
+  .doi{
+    margin-left: 50px;
+  }
+  .lich h2 {
+    margin-top: -80px;
+
+  }
+
+  .bang {
+    margin-bottom: 10px;
+  }
+  .ltd1{
+    height: 90%;
+    margin-top: -30px;
+  }
+  .ltd{
+    height: 90%;
+    margin-top: -30px;
+  }
+  .thong-tin{
+    margin-left: 220px;
+  }
+  .social-icons{
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: block;
+  }
+  .anh{
+    display: none;
+  }
+  .heading-main-box {
+
+    margin-left: 440px;
+    margin-top: 190px;
+  }
+  .gioi-thieu{
+    margin-top: -55px;
+  }
+  .logo {
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+  }
+  .main-nav {
+    margin-top: -40px;
+    
+  
+  }
+  .main-nav li{
+    display: inline-block;
+    margin-right: 3px;
+  }
+
+  .anh11{
+    margin-left: 30px;
+  }
+  .anh22{
+    margin-left: 80px;
+  }
+
+  .xem{
+    margin-left: 180px;
+  }
+  .giai{
+    margin-left: 170px;
+  }
+  .xem1{
+    margin-left: 180px;
+  }
+  .giai1{
+    margin-left: 170px;
+  }
+
+  .ltd{
+    margin-top: 10px;
+    width: 100%;
+  }
+  .ltd1{
+    width: 100%;
+  }
+  .doi{
+    margin-left: 105px;
+   
+  }
+  .figtl{
+    text-align: inherit;
+  }
+
+  .thong-tin{
+    margin-left: 120px;
+  }
+  .social-icons{
+    margin-left: 100px;
+  }
+}
+
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  h1 {
+    margin-top: 200px;
+    font-size: 300%;
+
+  }
+ 
+  .logo {
+    height: 70px;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+  }
+
+  .anh {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+
+    top: 75px;
+  }
+
+  .sticky .logo {
+    width: 200px;
+    margin-top: -5px;
+  }
+
+  .heading-main-box {
+
+    margin-left: 278px;
+    margin-top: 150px;
+  }
+  
+  
+
+  .gioi-thieu {
+    font-size: 100%;
+    margin-top: -80px;
+    margin-left: 20px;
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sticky{
+    background-color: rgba(39, 146, 239, 0.537);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+   /*  height: 60px; */
+    padding-bottom: 10px;
+  }
+  .sticky .main-nav{
+    margin-top: -36px;
+  }
+  
+  .picture4 {
+
+    /* margin-left: 100px; */
+    width: 100%;
+    margin-bottom: 30px;
+
+  }
+
+  .ltd {
+    /* width: 90%; */
+    height: 90%;
+    margin-top: 10px;
+  }
+
+  .ltd1 {
+    /* width: 90%; */
+    height: 90%;
+    margin-top: -20px;
+  }
+
+  
+  .hang6 {
+    display: none;
+  }
+
+  .hang3 {
+    display: none;
+  }
+
+  .bang {
+    margin-bottom: 30px;
+  }
+
+  .lich h2 {
+    margin-top: -80px;
+
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-right: 3px;
+  }
+
+
+.logo {
+  height: 60px;
+  margin-top: 10%;
+}
+
+.main-nav {
+
+  margin-top: -30px;
+}
+
+.mobile-nav-icon{
+  margin-top: -10px;
+}
+
+.sticky .logo{
+  width: 50px;
+  margin-top: 16px;
+}
+.heading-main-box{
+ margin-left: 266px;
+}
+.logoc11{
+  margin-top: -80px;
+  margin-left: 190px;
+}
+.logocmun{
+  margin-top: -68px;
+  margin-left: 180px;
+}
+.logocre{
+  margin-top: -85px;
+  margin-left: 180px;
+}
+
+.fig2{
+  margin-top: -8px;
+  margin-left: 194px;
+}
+.figmun{
+  margin-top: -8px;
+  margin-left: 189px;
+}
+.figre{
+  margin-top: -8px;
+  margin-left: 180px;
+}
+.giai{
+  margin-top: -98px;
+  margin-left: 125px;
+}
+.giai1{
+  margin-top: -99px;
+  margin-left: 125px;
+}
+.xem1{
+  margin-top: -68px;
+  margin-left: 140px;
+}
+.xem{
+  margin-top: -60px;
+  margin-left: 145px;
+}
+
+.doi{
+  margin-left: 40px;
+}
+
+.gio{
+  margin-top: -63px;
+}
+
+.giopsg{
+  margin-top: -50px;
+}
+.gio4{
+  margin-top: -75px;
+}
+.giowo{
+  margin-top: -35px;
+}
+.gioaff{
+  margin-top: -35px;
+}
+.giowo2{
+  margin-top: -45px;
+}
+.thong-tin{
+  margin-left: 80px;
+}
+.social-icons{
+  margin-left: 60px;
+}
+}

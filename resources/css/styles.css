@@ -1,0 +1,931 @@
+/* ------------------------------------------------------------------------------------*/
+/* -----------------DEFAULT SETUP-------------------- */
+/* ------------------------------------------------------------------------------------*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    /* hien thi chu len website tot nhat */
+    /* mac dinh la 16px */
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* -----------------REUSABLE COMPONENT----------------------- */
+/* ------------------------------------------------------------------------------------*/
+h2,
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 200%;
+    word-spacing: 5px;
+    color: white;
+    line-height: 135%;
+}
+
+h2 {
+    color: #fb1f1f;
+    font-size: 180%;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: rgba(250, 15, 15, 0.951);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* -----------------HEADER-------------------- */
+/* ------------------------------------------------------------------------------------*/
+header {
+    background-image: linear-gradient(45deg, rgba(71, 72, 72, 0.8), rgba(23, 22, 22, 0.85)), url("../img/2022_12_18T230757Z_1300383542_UP1EICI1FQG7E_RTRMADP_3_SOCCER_WORLDCUP_ARG_FRA_REPORT.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(55, 69, 83, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+.logo {
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: 4px solid #fea4a9;
+    box-shadow: -5px -5px #ed535b;
+    /*    border: 4px solid #c4eff2;;
+    box-shadow:-5px -5px #58c4ca;; */
+
+    transition: 0.5s;
+}
+
+.logo:hover,
+.logo:active {
+    transform: scale(1.1);
+    transition: all .1s;
+}
+
+.main-nav {
+    float: right;
+    margin-left: 5px;
+    margin-top: 65px;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 110%;
+    
+    transition: border-bottom 0.5s;
+}
+
+.main-nav li:hover,
+.main-nav li:active {
+    transform: scale(1.1);
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #cccccc;
+}
+
+.heading-main-box {
+    position: relative;
+    margin-top: 260px;
+    margin-left: 670px;
+    transform: translate(-160%, -80%);
+}
+
+h1 span {
+    color: #22e653;
+}
+
+.gioi-thieu {
+    position: relative;
+    margin-top: -160px;
+    margin-left: 82px;
+    color: white;
+    font-size: 80%;
+    word-spacing: 2px;
+    line-height: 160%;
+}
+
+.anh {
+    height: 520px;
+    max-width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 63%;
+    filter: brightness(110%);
+    transform: skew(3deg, 10deg);
+    border-radius: 15px;
+    border: 4px solid #fea4a9;
+    box-shadow: 8px -8px #fc5860;
+}
+/*-----------------sticky ------------------*/
+.sticky{
+    background-color: rgba(39, 146, 239, 0.537);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+   /*  height: 60px; */
+    padding-bottom: 10px;
+}
+ .sticky .logo{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+} 
+ .sticky .main-nav{
+    margin-top: 20px;
+} 
+
+/*-------------------mobie navigation icon --------*/
+.mobile-nav-icon{
+    font-size: 200%;
+    /* color: #6b95bd; */
+    color: red;
+    position:absolute;
+    top: 55px;
+    right: 100px;
+    display: none;
+}
+
+.sticky .mobile-nav-icon{
+    top: 30px;
+}
+/* ------------------------------------------------------------------------------------*/
+/* -----------------Trục tiếp-------------------- */
+/* ------------------------------------------------------------------------------------*/
+.truc-tiep {
+
+    background-color: #0e0e0eea;
+}
+
+.truc-tiep h2 {
+    margin-bottom: 60px;
+}
+
+.col {
+    margin-left: 300px;
+}
+
+.span-1-of-3 {
+    margin-left: 300px;
+}
+
+.picture4 {
+    background-color: #77787a;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 90%;
+    height: 200px;
+    border-radius: 15px; 
+}
+.picture3 {
+    background-color: #77787a;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 90%;
+    height: 200px;
+    border-radius: 15px; 
+}
+.doi a{
+    text-decoration: none;
+}
+.doi1 a{
+    text-decoration: none;
+}
+
+.logoc1{
+   width: 55px;
+   margin-top: 59px;
+   margin-left: 30px;
+}
+
+/* .logoc11{
+    position: absolute;
+    width: 55px;
+    top: 149%;
+    left: 50%;
+    margin-left: -280px;
+    margin-top: -150px;
+}
+ */
+
+ .logoc11{
+    position: absolute;
+    width: 55px;
+    margin-top: -80px;
+    margin-left: 290px;
+}
+.fig1{
+    color: white;
+    font-size: 80%;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.fig2{
+    color: white;
+    font-size: 80%;
+    margin-top: -20px;
+    margin-left: 285px;
+}
+
+.xem{
+    color: white;
+    margin-top: -70px;
+    margin-left: 140px;
+    background-color: #22e653;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 80%;
+    /* tao goc vien tron */
+    
+}
+
+
+
+.giai{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -99px;
+    margin-left: 119px;
+    font-size: 70%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.xem:hover,
+.xem:active{
+    background-color:#108b05;
+    transform: scale(1.2);
+}
+
+.live{
+    position: relative;
+    color: white;
+    background-color: red;
+    width: 45px;
+    padding-left: 8px;
+    border-radius: 5px;
+    margin-top: -18px;
+    margin-left: 10px;
+    font-size: 80%;
+}
+
+
+.xem1{
+    color: white;
+    margin-top: -85px;
+    margin-left: 140px;
+    background-color: #22e653;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 80%;
+    /* tao goc vien tron */
+    
+}
+
+
+
+.giai1{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -101px;
+    margin-left: 119px;
+    font-size: 70%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.xem1:hover,
+.xem1:active{
+    background-color:#108b05;
+    transform: scale(1.2);
+}
+
+.live1{
+    position: relative;
+    color: white;
+    background-color: red;
+    width: 45px;
+    padding-left: 8px;
+    border-radius: 5px;
+    margin-top: -18px;
+    margin-left: 10px;
+    font-size: 80%;
+}
+
+.logocmun{
+    position: absolute;
+    width: 55px;
+    margin-top: -70px;
+    margin-left: 290px;
+}
+
+.figmun{
+    color: white;
+    font-size: 80%;
+    margin-top: -20px;
+    margin-left: 260px;
+    text-align: center;
+
+    
+}
+
+
+.logocre{
+    position: absolute;
+    width: 55px;
+    margin-top: -88px;
+    margin-left: 290px;
+}
+.figre{
+    color: white;
+    font-size: 80%;
+    margin-top: -20px;
+    margin-left: 260px;
+    text-align: center;
+}
+
+.figba{
+    color: white;
+    font-size: 80%;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.picture4:hover,
+.picture4:active{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+.picture3:hover,
+.picture3:active{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* -----------------Lịch thi đấu-------------------- */
+/* ------------------------------------------------------------------------------------*/
+.lich {
+    background-color: #0e0e0eea;
+}
+
+.ltd1 {
+   /*  background-color: #77787a;
+    box-shadow: 3px 5px 10px #e0e0e0; */
+    width: 90%;
+    height: 450px;
+    border-radius: 15px;
+   
+}
+.ltd {
+   /*  background-color: #77787a;
+    box-shadow: 3px 5px 10px #e0e0e0; */
+    width: 90%;
+    height: 450px;
+    border-radius: 15px;
+}
+.ltd {
+   /*  background-color: #77787a;
+    box-shadow: 3px 5px 10px #e0e0e0; */
+    width: 90%;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.lich h2{
+    margin-bottom: 60px;
+}
+
+.bang {
+     background-color: #77787a;
+    /*box-shadow: 3px 5px 10px #e0e0e0; */
+    width: 30%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.hang1{
+    margin-bottom: 50px;
+}
+
+
+.l1{
+    width: 55px;
+    margin-top: 40px;
+    margin-left: 20px;
+ }
+ 
+ 
+.l2{
+    position: absolute;
+    width: 55px;
+     
+     margin-top: -66px;
+     margin-left: 200px;
+ }
+
+ .lpsg{
+    position: absolute;
+    width: 55px;
+     
+     margin-top: -66px;
+     margin-left: 200px;
+ }
+ .figl1{
+     color: white;
+     font-size: 80%;
+     margin-top: 2px;
+     margin-left: 22px;
+ }
+ 
+ .figl2{
+     color: white;
+     font-size: 80%;
+     margin-top: -20px;
+     margin-left: 195px;
+ }
+
+ .gio .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+ .gio{
+     color: white;
+     margin-top: -80px;
+     font-size: 70%;
+     margin-left: 100px;
+     /* tao goc vien tron */ 
+ }
+ .giopsg .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+ .giopsg{
+     color: white;
+     margin-top: -80px;
+     font-size: 70%;
+     margin-left: 100px;
+     /* tao goc vien tron */ 
+ }
+ 
+ 
+ 
+ .giai2{
+     text-transform: uppercase;
+     color: #e0e0e0;
+     background-color: #5a5a5a;
+     width: 140px;
+     text-align: center;
+     padding: 3px;
+     margin-top: -102px;
+     margin-left: 67px;
+     font-size: 60%;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+ }
+ 
+.bang:hover,
+.bang:active{
+    filter: brightness(120%);
+    cursor: pointer;
+}
+
+
+.figlbayern{
+    color: white;
+    font-size: 80%;
+    margin-top: 2px;
+    margin-left: 3px;
+} 
+
+.figpsg{
+    color: white;
+    font-size: 80%;
+     margin-top: -20px;
+    margin-left: 211px; 
+}
+
+.giai3{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -93px;
+    margin-left: 67px;
+    font-size: 60%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ 
+
+.lac{
+    width: 45px;
+    margin-top: 40px;
+    margin-left: 20px;
+ }
+ 
+ 
+.ltot{
+    position: absolute;
+    width: 43px;
+     margin-top: -89px;
+     margin-left: 210px;
+ }
+
+ .giai4{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -98px;
+    margin-left: 67px;
+    font-size: 60%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.gio4 .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+.gio4{
+    color: white;
+    margin-top: -90px;
+    font-size: 70%;
+    margin-left: 100px;
+    /* tao goc vien tron */ 
+}
+
+.figac{
+    color: white;
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: 10px;
+} 
+
+.figtot{
+    color: white;
+    font-size: 80%;
+     margin-top: -22px;
+    margin-left: 190px; 
+}
+.lbarca{
+    position: absolute;
+    width: 55px;
+     margin-top: -65px;
+     margin-left: 210px;
+ }
+
+.giai5{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -100px;
+    margin-left: 67px;
+    font-size: 60%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.gio5 .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+
+.figmu{
+    color: white;
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: 5px;
+ }
+.figbarca{
+    color: white;
+    font-size: 80%;
+    margin-top: -33px;
+    margin-left: 200px;
+ }
+
+.mu{
+    margin-left: 15px;
+}
+
+.fighagl{
+    color: white;
+    font-size: 80%;
+     margin-top: -20px;
+    margin-left: 208px; 
+}
+
+.lhagl{
+    position: absolute;
+    width: 55px;
+     margin-top: -70px;
+     margin-left: 202px;
+ }
+.lphap{
+    position: absolute;
+    width: 55px;
+     margin-top: -43px;
+     margin-left: 202px;
+ }
+
+ .figargen{
+    color: white;
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+.figfra{
+    color: white;
+    font-size: 80%;
+    margin-top: -18px;
+    margin-left: 204px; 
+}
+
+.giaiwo{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -97px;
+    margin-left: 67px;
+    font-size: 60%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.giowo .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+
+ .giowo{
+    color: white;
+    margin-top: -60px;
+    font-size: 70%;
+    margin-left: 100px;
+    /* tao goc vien tron */ 
+}
+
+.figduc{
+    color: white;
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.lbr{
+    position: absolute;
+    width: 55px;
+     margin-top: -50px;
+     margin-left: 202px;
+ }
+
+ .figbr{
+    color: white;
+    font-size: 80%;
+    margin-top: -18px;
+    margin-left: 208px; 
+}
+
+.giowo2 .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+
+ .giowo2{
+    color: white;
+    margin-top: -60px;
+    font-size: 70%;
+    margin-left: 100px;
+    /* tao goc vien tron */ 
+}
+
+.giaiwo2{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -98px;
+    margin-left: 67px;
+    font-size: 60%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.figvn{
+    color: white;
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.figtl{
+    color: white;
+    font-size: 80%;
+    margin-top: -18px;
+    margin-left: 198px; 
+}
+
+.ltl{
+    position: absolute;
+    width: 55px;
+     margin-top: -45px;
+     margin-left: 202px;
+ }
+
+ .gioaff .material-symbols-outlined{
+    font-size: 120%;
+    margin-bottom: 10px;
+ }
+
+ .gioaff{
+    color: white;
+    margin-top: -60px;
+    font-size: 70%;
+    margin-left: 100px;
+    /* tao goc vien tron */ 
+}
+
+.giaiaff{
+    text-transform: uppercase;
+    color: #e0e0e0;
+    background-color: #5a5a5a;
+    width: 140px;
+    text-align: center;
+    padding: 3px;
+    margin-top: -98px;
+    margin-left: 67px;
+    font-size: 60%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* ------------------------------------------------------------------------------------*/
+/* ------------------Liên Hệ-------------------------------------- */
+/* ------------------------------------------------------------------------------------*/
+.lien-he{
+    background-image: linear-gradient(45deg, rgba(32, 32, 32, 0.8), rgba(8, 7, 7, 0.859)), url('../img/s1.webp');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    /* background-attachment: fixed; */
+}
+/* ------------------------------------------------------------------------------------*/
+/* ------------------FOOTER-------------------------------------- */
+/* ------------------------------------------------------------------------------------*/
+footer {
+    text-align: center;
+    background-color: #494949;
+    color: white;
+    padding: 12px;
+}
+
+.thong-tin {
+    list-style: none;
+    color: white;
+    line-height: 200%;
+    margin-top: 20px;
+    word-spacing: 1px;
+    font-size: 95%;
+    margin-left: 500px;
+}
+.small-icon {
+    color: #305679;
+    font-size: 130%;
+    margin-right: 10px;
+}
+.thong-tin .small-icon {
+    color: #427db4;
+}
+
+.thong-tin .small-icon:hover,
+.thong-tin .small-icon:active {
+    transform: scale(1.3);
+}
+
+
+.social-icons {
+    margin-top: 30px;
+    list-style: none;
+    margin-left: 500px;
+}
+
+.social-icons li {
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    color: white;
+}
+
+.social-icons li i {
+    transform: all .3s;
+    cursor: pointer;
+}
+
+.social-icons li i:hover,
+.social-icons li i:active {
+    transform: scale(1.3);
+    color: #e67e22;
+}
+
+.lien-he  a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* -------------------------------Đăng nhập---------------------------------------------- */
+/* ------------------------------------------------------------------------------------*/
+/* .nhap{
+    border: 2px solid red;
+    background-color: #77787a;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 40%;
+    height: 400px;
+    border-radius: 25px; 
+    margin-left: 250px;
+   
+} */
